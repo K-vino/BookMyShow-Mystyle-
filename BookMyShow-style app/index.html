@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Main Navbar Styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+        /* Logo and Search Section */
+        .navbar-left {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-left img {
+            height: 40px;
+            margin-right: 20px;
+        }
+        .search-bar input {
+            padding: 8px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        /* Location, Sign In, and Menu Section */
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-right a {
+            text-decoration: none;
+            color: black;
+            margin-left: 15px;
+            font-size: 16px;
+        }
+        .sign-in-btn {
+            background-color: #e74c3c;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .menu-icon {
+            font-size: 24px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        /* Lower Navbar Links */
+        .navbar-links {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar-links a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .navbar-links a:hover {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#"><img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="BookMyShow Logo"></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities">
+            </div>
+        </div>
+        <div class="navbar-right">
+            <button class="sign-in-btn">Sign In</button>
+            <span class="menu-icon">&#9776;</span>
+        </div>
+    </nav>
+
+    <!-- Lower Navbar Links -->
+    <nav class="navbar-links">
+        <a href="#">Movies</a>
+        <a href="#">Stream</a>
+        <a href="#">Events</a>
+        <a href="#">Plays</a>
+        <a href="#">Sports</a>
+        <a href="#">Activities</a>
+        <a href="#">ListYourShow</a>
+        <a href="#">Corporates</a>
+        <a href="#">Offers</a>
+        <a href="#">Gift Cards</a>
+    </nav>
+
+</body>
+</html>
